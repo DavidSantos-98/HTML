@@ -1,0 +1,15 @@
+$warning: red;
+
+p {
+    color: $warning;
+}
+
+h1 {
+    $warning: blue;
+    color: $warning;
+}
+
+h2 {
+    color: $warning;
+    @include flex();
+}
